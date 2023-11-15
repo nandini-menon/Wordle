@@ -10,27 +10,13 @@ This project is created with [Parcel](https://parceljs.org/), a modern JS build 
 
 ## TODO: Stretch Goals
 
-If you're looking for an additional challenge, give these stretch goals a shot!
-
-Unlike the standard exercises, no solution video is available for these goals, though the raw solution source code is available. See the solutions page on the Course Platform.
-
-Also, feel free to come up with _your own_ stretch goals! If there's a thing you'd like to implement, go for it!!
-
-## Visual Keyboard
+### Visual Keyboard
 
 In the real Wordle game, a keyboard is shown below the guesses:
 
 ![Screenshot of the Wordle game, showing a keyboard below the game board](docs/bottom-keyboard-original.png)
 
 This keyboard is an important game element, since it makes it easy to tell which letters have already been tested.
-
-Here's what the keyboard looked like in my implementation:
-
-![Screenshot of our Wordle clone, showing a keyboard below the game board](docs/bottom-keyboard-clone.png)
-
-**Note: Styling isn't provided for stretch goals.** You'll need to come up with your own CSS. You can add it to `src/styles.css`.
-
-**Relatedly:** When you add a keyboard, it'll likely be pushed "below the fold" on smaller windows. Don't worry about trying to fit everything in the viewport at once.
 
 **Acceptance Criteria:**
 
@@ -43,7 +29,7 @@ Here's what the keyboard looked like in my implementation:
 - No need to include "Enter" and "Backspace" keys.
 - Don't worry too much about the styling, trying to get the alignment to look exactly like a real keyboard.
 
-## Restart button
+### Restart button
 
 One of Wordle's hooks is that you can only play 1 game per day: there's a new word for all users every day. As a result, there's no "restart button", you just have to wait until the next day.
 
